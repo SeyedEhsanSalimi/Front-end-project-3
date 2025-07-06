@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section.wraper{
+    width: 100%;
+}
+@font-face {
+    font-family: comic-sans-2;
+    src: url(../Fonts/ComicRelief-Regular.ttf);
+}
+@font-face {
+    font-family: comic-sans-1;
+    src: url(../Fonts/ComicRelief-Bold.ttf);
+}
