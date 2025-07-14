@@ -31,3 +31,19 @@ select2.addEventListener("click", function () {
   show1.style.bottom = "0";
   show2.style.bottom = "-100%";
 });
+
+let plus=document.getElementsByClassName('arrow')
+let paragraph=document.getElementsByClassName('paragraph')
+for(let i=0;i<plus.length;i++){
+  plus[i].addEventListener('click',function(){
+    if(paragraph[i].style.display==='none' || paragraph[i].style.display===''){
+      paragraph[i].style.display='block'
+      plus[i].classList.remove('fa-plus')
+      plus[i].classList.add('fa-minus')
+    }else{
+      paragraph[i].style.display='none'
+      plus[i].classList.remove('fa-minus')
+      plus[i].classList.add('fa-plus')
+    }
+  })
+}
