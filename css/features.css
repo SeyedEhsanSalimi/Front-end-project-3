@@ -76,7 +76,6 @@
   }
   section.features > div.right > div.rbottem > div:hover {
     transform: scale(1.05, 1.05);
-    border: 1px solid #2b2b2b;
     cursor: pointer;
   }
   section.features > div.left > img:hover {
@@ -160,7 +159,6 @@
   }
   section.features > div.right > div.rbottem > div:hover {
     transform: scale(1.05, 1.05);
-    border: 1px solid #2b2b2b;
     cursor: pointer;
   }
   section.features > div.left > img:hover {
@@ -225,8 +223,9 @@
     flex-wrap: wrap;
     /* padding: 5px; */
     box-sizing: border-box;
-    justify-content: flex-end;
-    margin: 2px 0;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
     border-radius: 5px;
     transition: 200ms all linear;
   }
@@ -254,8 +253,8 @@
     width: 200px;
   }
   section.features > div.right > div.rbottem > div:hover {
-    border: 1px solid #2b2b2b;
     cursor: pointer;
+    transform: scale(1.05, 1.05);
   }
   section.features > div.left > img:hover {
     transform: scale(1.05, 1.05);
@@ -348,7 +347,6 @@
     width: 250px;
   }
   section.features > div.right > div.rbottem > div:hover {
-    border: 1px solid #2b2b2b;
     cursor: pointer;
     transform: scale(1.05, 1.05);
   }
@@ -444,7 +442,6 @@
     width: 250px;
   }
   section.features > div.right > div.rbottem > div:hover {
-    border: 1px solid #2b2b2b;
     cursor: pointer;
     transform: scale(1.05, 1.05);
   }
