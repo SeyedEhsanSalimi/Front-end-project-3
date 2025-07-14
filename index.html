@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="node_modules/font-awesome/css/font-awesome.min.css"
@@ -574,8 +575,86 @@
     </section>
     <!-- end download-->
 
+    <!-- make form-->
+   <section class="container-fluid p-0">
+      <section class="col-10 offset-1 col-lg-6 offset-lg-3  jumbotron bg-dark p-4 mt-5 text-white" id="form">
+        <form class="form-group" method="post" enctype="multipart/form-data">
+          <section class="form-group">
+            <label for="fullName" class="">Full Name :</label>
+            <input
+              type="text"
+              name="fullName "
+              id="fullName"
+              class="form-control mt-1"
+              placeholder="Full Name . . ."
+            />
+          </section>
+
+          <section class="form-group">
+            <label for="email">Email :</label>
+            <input
+              type="email"
+              name="email "
+              id="email"
+              class="form-control mt-1"
+              placeholder="Email . . . "
+            />
+          </section>
+          <section class="form-group">
+            <label for="number">Number :</label>
+            <input
+              type="number"
+              name="number "
+              id="number"
+              class="form-control mt-1"
+              placeholder="number . . . "
+            />
+          </section>
+
+          <section class="form-group">
+            <label for="password">Password :</label>
+            <input
+              type="password"
+              name="password "
+              id="password"
+              class="form-control mt-1"
+              placeholder="Password . . . "
+            />
+          </section>
+          <section class="form-group">
+            <label for="image">Image :</label>
+            <input
+              type="file"
+              name="image"
+              id="image"
+              class="mt-1 form-control-file"
+            />
+          </section>
+          <section class="form-group mt-4 ">
+            <label for="counrty">Country :</label>
+            <select name="country" id="country" class="form-control mt-2 ">
+        
+              <option value="iran">Iran</option>
+              <option value="turkey">Turkey</option>
+              <option value="USA">USA</option>
+              <option value="china">China</option>
+            </select>
+          </section>
+          <section class="form-group mt-5">
+            <input
+              type="submit"
+              value="submit"
+              class="btn btn-success w-25 text-capitalize"
+            />
+          </section>
+        </form>
+      </section>
+    </section>
+    <!-- end form-->
+
     <!-- end project -->
     <script src="node_modules/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
   </body>
 </html>
