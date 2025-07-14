@@ -1,0 +1,328 @@
+@media (min-width: 1200px) {
+  section.download {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section.download > div:nth-of-type(1) {
+    width: 50%;
+  }
+  section.download > div:nth-of-type(1) > div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  section.download > div:nth-of-type(1) > div > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #242f51;
+    margin-bottom: 30px;
+  }
+  section.download > div:nth-of-type(1) > div > p {
+    width: 98%;
+    font-size: 16px;
+    color: #616368;
+    margin-bottom: 30px;
+  }
+  section.download > div:nth-of-type(1) > div > div {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  section.download > div:nth-of-type(1) > div > div > a {
+    margin-left: 10px;
+    transition: 150ms all linear;
+  }
+  section.download > div:nth-of-type(1) > div > div > a:hover {
+    transform: scale(1.05, 1.05);
+  }
+  section.download > div:nth-of-type(2) {
+    width: 50%;
+  }
+  section.download > div:nth-of-type(2) > div {
+    width: 100%;
+  }
+  section.download > div:nth-of-type(2) > div > img {
+    width: 100%;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  section.download {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section.download > div:nth-of-type(1) {
+    width: 50%;
+  }
+  section.download > div:nth-of-type(1) > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  section.download > div:nth-of-type(1) > div > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #242f51;
+    margin-bottom: 30px;
+  }
+  section.download > div:nth-of-type(1) > div > p {
+    width: 98%;
+    font-size: 16px;
+    color: #616368;
+    margin-bottom: 30px;
+  }
+  section.download > div:nth-of-type(1) > div > div {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  section.download > div:nth-of-type(1) > div > div > a {
+    margin-left: 10px;
+    transition: 150ms all linear;
+  }
+  section.download > div:nth-of-type(1) > div > div > a:hover {
+    transform: scale(1.05, 1.05);
+  }
+  section.download > div:nth-of-type(2) {
+    width: 50%;
+  }
+  section.download > div:nth-of-type(2) > div {
+    width: 100%;
+  }
+  section.download > div:nth-of-type(2) > div > img {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  section.download {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section.download > div:nth-of-type(1) {
+    width: 50%;
+  }
+  section.download > div:nth-of-type(1) > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  section.download > div:nth-of-type(1) > div > h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #242f51;
+    margin-bottom: 30px;
+  }
+  section.download > div:nth-of-type(1) > div > p {
+    width: 98%;
+    font-size: 14px;
+    color: #616368;
+    margin-bottom: 30px;
+  }
+  section.download > div:nth-of-type(1) > div > div {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  section.download > div:nth-of-type(1) > div > div > a {
+    width: 40%;
+    margin-left: 10px;
+    transition: 150ms all linear;
+    background-color: antiquewhite;
+  }
+  section.download > div:nth-of-type(1) > div > div > a > img {
+    width: 100%;
+  }
+  section.download > div:nth-of-type(1) > div > div > a:hover {
+    transform: scale(1.05, 1.05);
+  }
+  section.download > div:nth-of-type(2) {
+    width: 50%;
+  }
+  section.download > div:nth-of-type(2) > div {
+    width: 100%;
+  }
+  section.download > div:nth-of-type(2) > div > img {
+    width: 100%;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  section.download {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section.download > div:nth-of-type(1) {
+    width: 100%;
+  }
+  section.download > div:nth-of-type(1) > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  section.download > div:nth-of-type(1) > div > h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #242f51;
+    margin-bottom: 30px;
+  }
+  section.download > div:nth-of-type(1) > div > p {
+    width: 70%;
+    font-size: 14px;
+    color: #616368;
+    margin-bottom: 30px auto;
+    text-align: center;
+  }
+  section.download > div:nth-of-type(1) > div > div {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  section.download > div:nth-of-type(1) > div > div > a {
+    width: 150px;
+    margin-left: 10px;
+    transition: 150ms all linear;
+    background-color: antiquewhite;
+  }
+  section.download > div:nth-of-type(1) > div > div > a > img {
+    width: 100%;
+  }
+  section.download > div:nth-of-type(1) > div > div > a:hover {
+    transform: scale(1.05, 1.05);
+  }
+  section.download > div:nth-of-type(2) {
+    width: 100%;
+  }
+  section.download > div:nth-of-type(2) > div {
+    width: 80%;
+    margin-top: 50px;
+    margin: 0 auto;
+  }
+  section.download > div:nth-of-type(2) > div > img {
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+      section.download {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section.download > div:nth-of-type(1) {
+    width: 100%;
+  }
+  section.download > div:nth-of-type(1) > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  section.download > div:nth-of-type(1) > div > h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #242f51;
+    margin-bottom: 30px;
+  }
+  section.download > div:nth-of-type(1) > div > p {
+    width: 70%;
+    font-size: 14px;
+    color: #616368;
+    margin-bottom: 30px auto;
+    text-align: center;
+  }
+  section.download > div:nth-of-type(1) > div > div {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  section.download > div:nth-of-type(1) > div > div > a {
+    width: 150px;
+    margin-left: 10px;
+    transition: 150ms all linear;
+    background-color: antiquewhite;
+  }
+  section.download > div:nth-of-type(1) > div > div > a > img {
+    width: 100%;
+  }
+  section.download > div:nth-of-type(1) > div > div > a:hover {
+    transform: scale(1.05, 1.05);
+  }
+  section.download > div:nth-of-type(2) {
+    width: 100%;
+  }
+  section.download > div:nth-of-type(2) > div {
+    width: 80%;
+    margin-top: 50px;
+    margin: 0 auto;
+  }
+  section.download > div:nth-of-type(2) > div > img {
+    width: 100%;
+  }
+}
