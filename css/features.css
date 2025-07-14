@@ -362,21 +362,19 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
   }
   section.features > div.left {
     width: 100%;
     text-align: center;
   }
   section.features > div.left > img {
-    width: 300px;
+    width: 50%;
     cursor: pointer;
     transition: 200ms all linear;
     margin-bottom: 50px;
   }
   section.features > div.right {
-    width: 500px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
