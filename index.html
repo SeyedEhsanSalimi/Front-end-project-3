@@ -24,19 +24,19 @@
         <div>
           <nav>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Key Features</a></li>
-              <li><a href="#">pricing</a></li>
-              <li><a href="#">Testminimal</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Try For Free</a></li>
+              <li><a href="#" data-address="home">Home</a></li>
+              <li><a href="#" data-address="#features">Key Features</a></li>
+              <li><a href="#" data-address="#price">pricing</a></li>
+              <li><a href="#" data-address="#test">Testminimal</a></li>
+              <li><a href="#" data-address="#faq">FAQ</a></li>
+              <li><a href="#" data-address="#trf">Try For Free</a></li>
             </ul>
           </nav>
         </div>
       </section>
       <!--make swiper-->
 
-      <section>
+      <section id="home">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -140,7 +140,7 @@
 
     <!-- make features-->
     <!-- Left-->
-    <section class="features">
+    <section class="features" id="features">
       <div class="left">
         <img src="images/Vector Smart Object 2.png" alt="vector 2" />
       </div>
@@ -356,7 +356,7 @@
     <!-- end caption-->
 
     <!-- make cost-->
-    <section class="cost">
+    <section class="cost" id="price">
       <!-- div top-->
       <div>
         <div>
@@ -413,7 +413,7 @@
     <!-- end cost-->
 
     <!-- make meet client-->
-    <section class="meet">
+    <section class="meet" id="test">
       <div>
         <div>
           <img src="images/meet.png" alt="meet" />
@@ -454,7 +454,7 @@
     <!-- end meet client-->
 
     <!-- make question box-->
-    <section class="question">
+    <section class="question" id="faq">
       <div>
         <h1>Frequently asked questions</h1>
         <p>
@@ -548,7 +548,7 @@
     <!-- end question box-->
 
     <!-- make download-->
-    <section class="download">
+    <section class="download" id="trf">
       <div>
         <div>
           <h1>Download our App now !</h1>
@@ -679,16 +679,22 @@
          <a href="#"> <span class="fa fa-hashtag"></span></a>
         <a href="#"> <span class="fa fa-shield"></span></a>
         </div>
+         <div id="root"></div>
         <p>
           Copyright© Seyed Ehsan Salimi 2025. All rights reserved
         </p>
+       
       </div>
      </section>
+     <!--jquery scroll-->
+    <div class="scroll"><i class="fa fa-arrow-up"></i></div>
+    <!--jquery scroll-->
+    
     <!-- end footer-->
 
     <!-- end project -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
   </body>
 </html>
